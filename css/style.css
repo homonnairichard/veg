@@ -18,6 +18,7 @@ body {
 
 .link_color{
     color: #EDE9DD;
+    font-weight: bold;
 }
 
 li {
@@ -80,6 +81,14 @@ form {
 
 #kezdo_szoveg{
     font-size: 20px;
+}
+
+.bug_fix{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Középre igazítja a tartalmat vízszintesen */
+    justify-content: center; /* Középre igazítja a tartalmat függőlegesen */
+    text-align: center; /* Középre igazítja a szöveget */
 }
 
 .urlap {
@@ -227,6 +236,11 @@ h1, h2, h3, h4, h5, h6{
         font-family: "Anton", sans-serif;
         font-weight: 400;
         font-style: normal;
+}
+
+.contact_behuzas{
+    margin: 0 auto;
+    text-align: center;
 }
 
 .kis-div2{
